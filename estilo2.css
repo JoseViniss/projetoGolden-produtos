@@ -1,0 +1,571 @@
+@font-face {
+    font-family: promo;
+    src: url(fontes/JosefinSans-Medium.ttf);
+ }
+
+ @font-face {
+    font-family: bebas;
+    src: url(fontes/BebasNeue-Regular.ttf);
+ }
+
+ @font-face {
+    font-family: opensans2;
+    src: url(fontes/JosefinSans-Bold.ttf);
+ }
+
+ @font-face {
+    font-family: roboto;
+    src: url(fontes/Roboto-MediumItalic.ttf);
+ }
+
+ @font-face {
+    font-family: opensans2;
+    src: url(fontes/JosefinSans-Bold.ttf);
+ }
+
+ @font-face {
+    font-family: opensans;
+    src: url(fontes/FuturaPTCondBookOblique.otf);
+ }
+
+
+*{
+    box-sizing: border-box;
+}
+
+#topo{
+    background-color:#1C1C1C;
+    padding-top: 180px;
+    padding-bottom: 60px;
+    margin: -8px;
+}
+
+#menu_h{
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    top: 120px;
+}
+
+#menu_h li{
+    display: inline;
+}
+
+#menu_h li a{
+    color: rgb(255, 255, 255);
+    padding: 50px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: opensans2, sans-serif;
+    font-size: 25px;
+    margin-left: 100px;
+}
+
+#menu_h a:hover{
+    color: rgb(53, 53, 53);
+    text-decoration: none;
+}
+
+#banner{
+    position: absolute;
+    width: 1349px;
+    left: 0%;
+    top: 240px;
+}
+
+#logo{
+    position: absolute;
+    top: 0%;
+    left: 30%;
+    width: 500px;
+}
+
+#icone{
+    height: 200px;
+    position: relative;
+    top: 160px;
+    left: 600px;
+}
+
+#fundo{
+    margin-top: 7px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+    padding-top: 270px;
+    background-color: rgb(206, 206, 206);
+}
+
+#banner2{
+    position: absolute;
+    top: 262px;
+    left: 90px;
+}
+
+main{
+    margin-top: 7px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+    padding-top: 5100px;
+    background-color: rgb(70, 70, 70);
+}
+
+#estampa1{
+    position: absolute;
+    top: 510px;
+    left: 460px;
+    font-size: 40px;
+    font-family: bebas, sans-serif;
+    color: rgb(24, 24, 24);
+    text-shadow: 1px 1px 2px rgb(151, 151, 151);
+    background-color: rgb(197, 197, 197);
+}
+
+#linha1{
+    position: relative;
+    top: -5000px;
+}
+
+#ronaldo1{
+    height: 360px;
+    width: 325px;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid white;
+    position: absolute;
+    top: 670px;
+    left: 30px;
+}
+
+#ronaldo2{
+    height: 360px;
+    width: 325px;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid white;
+    position: absolute;
+    top: 670px;
+    left: 520px;
+}
+
+.camisa_ronaldo{
+    width: 300px;
+    position: relative;
+    left: 12px;
+    top: 12px;
+}
+
+.titulo1{
+    font-size: 40px;
+    font-family: opensans, sans-serif;
+    color: rgb(206, 206, 206);
+    position: relative;
+    left: 20px;
+    bottom: 35px;
+}
+
+#ronaldo3{
+    height: 360px;
+    width: 325px;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid white;
+    position: absolute;
+    top: 670px;
+    right: 25px;
+}
+
+#estampa2{
+    font-size: 40px;
+    font-family: bebas, sans-serif;
+    color: rgb(24, 24, 24);
+    text-shadow: 1px 1px 2px rgb(151, 151, 151);
+    background-color: rgb(197, 197, 197);
+    position: absolute;
+    top: 1060px;
+    left: 498px;
+}
+
+#linha2{
+    position: relative;
+    top: -4460px;
+}
+
+.camisa_malcon{
+    width: 300px;
+    position: relative;
+    left: 12px;
+    top: 12px;
+}
+
+#malcon1{
+    height: 360px;
+    width: 325px;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid white;
+    position: absolute;
+    top: 1225px;
+    left: 220px;
+}
+
+#malcon2{
+    height: 360px;
+    width: 325px;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid white;
+    position: absolute;
+    top: 1225px;
+    right: 220px;
+}
+
+#estampa3{
+    font-size: 40px;
+    font-family: bebas, sans-serif;
+    color: rgb(24, 24, 24);
+    text-shadow: 1px 1px 2px rgb(151, 151, 151);
+    background-color: rgb(197, 197, 197);
+    position: absolute;
+    left: 498px;
+    top: 1625px;
+}
+
+#linha3{
+    position: relative;
+    top: -3905px;
+}
+
+#blond1{
+    height: 360px;
+    width: 325px;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid white;
+    position: absolute;
+    top: 1790px;
+    left: 30px;
+}
+
+#blond2{
+    height: 360px;
+    width: 325px;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid white;
+    position: absolute;
+    top: 1790px;
+    left: 520px;
+}
+
+#blond3{
+    height: 360px;
+    width: 325px;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid white;
+    position: absolute;
+    top: 1790px;
+    right: 25px;
+}
+
+#estampa4{
+    font-size: 40px;
+    font-family: bebas, sans-serif;
+    color: rgb(24, 24, 24);
+    text-shadow: 1px 1px 2px rgb(151, 151, 151);
+    background-color: rgb(197, 197, 197);
+    position: absolute;
+    left: 600px;
+    top: 2190px;
+}
+
+#linha4{
+    position: relative;
+    top: -3350px;
+}
+
+#yoda1{
+    height: 360px;
+    width: 325px;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid white;
+    position: absolute;
+    top: 2355px;
+    left: 30px;
+}
+
+#yoda2{
+    height: 360px;
+    width: 325px;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid white;
+    position: absolute;
+    top: 2355px;
+    right: 25px;
+}
+
+#yoda3{
+    height: 360px;
+    width: 325px;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid white;
+    position: absolute;
+    top: 2355px;
+    left: 520px;
+}
+
+#estampa5{
+    font-size: 40px;
+    font-family: bebas, sans-serif;
+    color: rgb(24, 24, 24);
+    text-shadow: 1px 1px 2px rgb(151, 151, 151);
+    background-color: rgb(197, 197, 197);
+    position: absolute;
+    left: 570px;
+    top: 2790px;
+}
+
+#linha5{
+    position: relative;
+    top: -2760px;
+}
+
+#the1{
+    height: 360px;
+    width: 325px;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid white;
+    position: absolute;
+    top: 2955px;
+    left: 30px;
+}
+
+#the2{
+    height: 360px;
+    width: 325px;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid white;
+    position: absolute;
+    top: 2955px;
+    left: 520px;
+}
+
+#the3{
+    height: 360px;
+    width: 325px;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid white;
+    position: absolute;
+    top: 2955px;
+    right: 25px;
+}
+
+#estampa6{
+    font-size: 40px;
+    font-family: bebas, sans-serif;
+    color: rgb(24, 24, 24);
+    text-shadow: 1px 1px 2px rgb(151, 151, 151);
+    background-color: rgb(197, 197, 197);
+    position: absolute;
+    left: 490px;
+    top: 3390px;
+}
+
+#linha6{
+    position: relative;
+    top: -2170px;
+}
+
+#will1{
+    height: 360px;
+    width: 325px;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid white;
+    position: absolute;
+    top: 3560px;
+    left: 30px;
+}
+
+#will2{
+    height: 360px;
+    width: 325px;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid white;
+    position: absolute;
+    top: 3560px;
+    left: 520px;
+}
+
+#will3{
+    height: 360px;
+    width: 325px;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid white;
+    position: absolute;
+    top: 3560px;
+    right: 20px;
+}
+
+#estampa6{
+    font-size: 40px;
+    font-family: bebas, sans-serif;
+    color: rgb(24, 24, 24);
+    text-shadow: 1px 1px 2px rgb(151, 151, 151);
+    background-color: rgb(197, 197, 197);
+    position: absolute;
+    left: 490px;
+    top: 3390px;
+}
+
+#linha6{
+    position: relative;
+    top: -2170px;
+}
+
+#estampa7{
+    font-size: 40px;
+    font-family: bebas, sans-serif;
+    color: rgb(24, 24, 24);
+    text-shadow: 1px 1px 2px rgb(151, 151, 151);
+    background-color: rgb(197, 197, 197);
+    position: absolute;
+    left: 500px;
+    top: 3960px;
+}
+
+#linha7{
+    position: relative;
+    top: -1610px;
+}
+
+#goku1{
+    height: 360px;
+    width: 325px;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid white;
+    position: absolute;
+    top: 4135px;
+    left: 220px;
+}
+
+#goku2{
+    height: 360px;
+    width: 325px;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid white;
+    position: absolute;
+    top: 4135px;
+    right: 220px;
+}
+
+#estampa8{
+    font-size: 40px;
+    font-family: bebas, sans-serif;
+    color: rgb(24, 24, 24);
+    text-shadow: 1px 1px 2px rgb(151, 151, 151);
+    background-color: rgb(197, 197, 197);
+    position: absolute;
+    left: 530px;
+    top: 4545px;
+}
+
+#linha8{
+    position: relative;
+    top: -1035px;
+}
+
+#drake1{
+    height: 360px;
+    width: 325px;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid white;
+    position: absolute;
+    top: 4700px;
+    left: 30px;
+}
+
+#drake2{
+    height: 360px;
+    width: 325px;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid white;
+    position: absolute;
+    top: 4700px;
+    left: 520px;
+}
+
+#drake3{
+    height: 360px;
+    width: 325px;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid white;
+    position: absolute;
+    top: 4700px;
+    right: 20px;
+}
+
+#estampa9{
+    font-size: 40px;
+    font-family: bebas, sans-serif;
+    color: rgb(24, 24, 24);
+    text-shadow: 1px 1px 2px rgb(151, 151, 151);
+    background-color: rgb(197, 197, 197);
+    position: absolute;
+    left: 560px;
+    top: 5110px;
+}
+
+#linha9{
+    position: relative;
+    top: -480px;
+}
+
+#all1{
+    height: 360px;
+    width: 325px;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid white;
+    position: absolute;
+    top: 5280px;
+    left: 30px;
+}
+
+#all2{
+    height: 360px;
+    width: 325px;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid white;
+    position: absolute;
+    top: 5280px;
+    left: 520px;
+}
+
+#all3{
+    height: 360px;
+    width: 325px;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid white;
+    position: absolute;
+    top: 5280px;
+    right: 20px;
+}
+
+footer{
+    padding-top: 10px;
+    height: 200px;
+    margin: -8px;
+    background-color: rgb(15, 14, 14);
+}
+
+#sobre{
+    text-align: center;
+    font-family: roboto, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#sobre2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(143, 143, 143);
+}
+
+#instagram{
+    width: 30px;
+    position: relative;
+    left: 910px;
+    top: -45px;
+}
